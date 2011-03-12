@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14656315132C29C500D26B58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14656314132C29C500D26B58 /* UIKit.framework */; };
+		14656317132C29C500D26B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14656316132C29C500D26B58 /* Foundation.framework */; };
+		14656319132C29C500D26B58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14656318132C29C500D26B58 /* CoreGraphics.framework */; };
+		1465631F132C29C500D26B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1465631D132C29C500D26B58 /* InfoPlist.strings */; };
+		14656322132C29C500D26B58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14656321132C29C500D26B58 /* main.m */; };
+		14656325132C29C500D26B58 /* MultipartFormDataRequestGeneratorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14656324132C29C500D26B58 /* MultipartFormDataRequestGeneratorAppDelegate.m */; };
+		14656328132C29C600D26B58 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14656326132C29C600D26B58 /* MainWindow.xib */; };
+		1465632F132C29C600D26B58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14656314132C29C500D26B58 /* UIKit.framework */; };
+		14656330132C29C600D26B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14656316132C29C500D26B58 /* Foundation.framework */; };
+		14656331132C29C600D26B58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14656318132C29C500D26B58 /* CoreGraphics.framework */; };
+		14656339132C29C600D26B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14656337132C29C600D26B58 /* InfoPlist.strings */; };
+		1465633C132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1465633B132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.h */; };
+		1465633E132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1465633D132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14656332132C29C600D26B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14656307132C29C500D26B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1465630F132C29C500D26B58;
+			remoteInfo = MultipartFormDataRequestGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14656310132C29C500D26B58 /* MultipartFormDataRequestGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipartFormDataRequestGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14656314132C29C500D26B58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14656316132C29C500D26B58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14656318132C29C500D26B58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1465631C132C29C500D26B58 /* MultipartFormDataRequestGenerator-Info.plist */ = {isa = PBXFileReference; path = "MultipartFormDataRequestGenerator-Info.plist"; sourceTree = "<group>"; };
+		1465631E132C29C500D26B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14656320132C29C500D26B58 /* MultipartFormDataRequestGenerator-Prefix.pch */ = {isa = PBXFileReference; path = "MultipartFormDataRequestGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		14656321132C29C500D26B58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14656323132C29C500D26B58 /* MultipartFormDataRequestGeneratorAppDelegate.h */ = {isa = PBXFileReference; path = MultipartFormDataRequestGeneratorAppDelegate.h; sourceTree = "<group>"; };
+		14656324132C29C500D26B58 /* MultipartFormDataRequestGeneratorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipartFormDataRequestGeneratorAppDelegate.m; sourceTree = "<group>"; };
+		14656327132C29C600D26B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1465632E132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipartFormDataRequestGeneratorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14656336132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests-Info.plist */ = {isa = PBXFileReference; path = "MultipartFormDataRequestGeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		14656338132C29C600D26B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1465633A132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests-Prefix.pch */ = {isa = PBXFileReference; path = "MultipartFormDataRequestGeneratorTests-Prefix.pch"; sourceTree = "<group>"; };
+		1465633B132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipartFormDataRequestGeneratorTests.h; sourceTree = "<group>"; };
+		1465633D132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipartFormDataRequestGeneratorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1465630D132C29C500D26B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14656315132C29C500D26B58 /* UIKit.framework in Frameworks */,
+				14656317132C29C500D26B58 /* Foundation.framework in Frameworks */,
+				14656319132C29C500D26B58 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1465632A132C29C600D26B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1465632F132C29C600D26B58 /* UIKit.framework in Frameworks */,
+				14656330132C29C600D26B58 /* Foundation.framework in Frameworks */,
+				14656331132C29C600D26B58 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14656305132C29C500D26B58 = {
+			isa = PBXGroup;
+			children = (
+				1465631A132C29C500D26B58 /* MultipartFormDataRequestGenerator */,
+				14656334132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests */,
+				14656313132C29C500D26B58 /* Frameworks */,
+				14656311132C29C500D26B58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14656311132C29C500D26B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14656310132C29C500D26B58 /* MultipartFormDataRequestGenerator.app */,
+				1465632E132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14656313132C29C500D26B58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14656314132C29C500D26B58 /* UIKit.framework */,
+				14656316132C29C500D26B58 /* Foundation.framework */,
+				14656318132C29C500D26B58 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1465631A132C29C500D26B58 /* MultipartFormDataRequestGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				14656323132C29C500D26B58 /* MultipartFormDataRequestGeneratorAppDelegate.h */,
+				14656324132C29C500D26B58 /* MultipartFormDataRequestGeneratorAppDelegate.m */,
+				14656326132C29C600D26B58 /* MainWindow.xib */,
+				1465631B132C29C500D26B58 /* Supporting Files */,
+			);
+			path = MultipartFormDataRequestGenerator;
+			sourceTree = "<group>";
+		};
+		1465631B132C29C500D26B58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1465631C132C29C500D26B58 /* MultipartFormDataRequestGenerator-Info.plist */,
+				1465631D132C29C500D26B58 /* InfoPlist.strings */,
+				14656320132C29C500D26B58 /* MultipartFormDataRequestGenerator-Prefix.pch */,
+				14656321132C29C500D26B58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14656334132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1465633B132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.h */,
+				1465633D132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.m */,
+				14656335132C29C600D26B58 /* Supporting Files */,
+			);
+			path = MultipartFormDataRequestGeneratorTests;
+			sourceTree = "<group>";
+		};
+		14656335132C29C600D26B58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14656336132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests-Info.plist */,
+				14656337132C29C600D26B58 /* InfoPlist.strings */,
+				1465633A132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1465630F132C29C500D26B58 /* MultipartFormDataRequestGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14656341132C29C600D26B58 /* Build configuration list for PBXNativeTarget "MultipartFormDataRequestGenerator" */;
+			buildPhases = (
+				1465630C132C29C500D26B58 /* Sources */,
+				1465630D132C29C500D26B58 /* Frameworks */,
+				1465630E132C29C500D26B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipartFormDataRequestGenerator;
+			productName = MultipartFormDataRequestGenerator;
+			productReference = 14656310132C29C500D26B58 /* MultipartFormDataRequestGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1465632D132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14656344132C29C600D26B58 /* Build configuration list for PBXNativeTarget "MultipartFormDataRequestGeneratorTests" */;
+			buildPhases = (
+				14656329132C29C600D26B58 /* Sources */,
+				1465632A132C29C600D26B58 /* Frameworks */,
+				1465632B132C29C600D26B58 /* Resources */,
+				1465632C132C29C600D26B58 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14656333132C29C600D26B58 /* PBXTargetDependency */,
+			);
+			name = MultipartFormDataRequestGeneratorTests;
+			productName = MultipartFormDataRequestGeneratorTests;
+			productReference = 1465632E132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14656307132C29C500D26B58 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1465630A132C29C500D26B58 /* Build configuration list for PBXProject "MultipartFormDataRequestGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14656305132C29C500D26B58;
+			productRefGroup = 14656311132C29C500D26B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1465630F132C29C500D26B58 /* MultipartFormDataRequestGenerator */,
+				1465632D132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1465630E132C29C500D26B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1465631F132C29C500D26B58 /* InfoPlist.strings in Resources */,
+				14656328132C29C600D26B58 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1465632B132C29C600D26B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14656339132C29C600D26B58 /* InfoPlist.strings in Resources */,
+				1465633C132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1465632C132C29C600D26B58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1465630C132C29C500D26B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14656322132C29C500D26B58 /* main.m in Sources */,
+				14656325132C29C500D26B58 /* MultipartFormDataRequestGeneratorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14656329132C29C600D26B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1465633E132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14656333132C29C600D26B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1465630F132C29C500D26B58 /* MultipartFormDataRequestGenerator */;
+			targetProxy = 14656332132C29C600D26B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1465631D132C29C500D26B58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1465631E132C29C500D26B58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14656326132C29C600D26B58 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14656327132C29C600D26B58 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		14656337132C29C600D26B58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14656338132C29C600D26B58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1465633F132C29C600D26B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14656340132C29C600D26B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		14656342132C29C600D26B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipartFormDataRequestGenerator/MultipartFormDataRequestGenerator-Prefix.pch";
+				INFOPLIST_FILE = "MultipartFormDataRequestGenerator/MultipartFormDataRequestGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14656343132C29C600D26B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipartFormDataRequestGenerator/MultipartFormDataRequestGenerator-Prefix.pch";
+				INFOPLIST_FILE = "MultipartFormDataRequestGenerator/MultipartFormDataRequestGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14656345132C29C600D26B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultipartFormDataRequestGenerator.app/MultipartFormDataRequestGenerator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipartFormDataRequestGeneratorTests/MultipartFormDataRequestGeneratorTests-Prefix.pch";
+				INFOPLIST_FILE = "MultipartFormDataRequestGeneratorTests/MultipartFormDataRequestGeneratorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		14656346132C29C600D26B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultipartFormDataRequestGenerator.app/MultipartFormDataRequestGenerator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipartFormDataRequestGeneratorTests/MultipartFormDataRequestGeneratorTests-Prefix.pch";
+				INFOPLIST_FILE = "MultipartFormDataRequestGeneratorTests/MultipartFormDataRequestGeneratorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1465630A132C29C500D26B58 /* Build configuration list for PBXProject "MultipartFormDataRequestGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1465633F132C29C600D26B58 /* Debug */,
+				14656340132C29C600D26B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14656341132C29C600D26B58 /* Build configuration list for PBXNativeTarget "MultipartFormDataRequestGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14656342132C29C600D26B58 /* Debug */,
+				14656343132C29C600D26B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14656344132C29C600D26B58 /* Build configuration list for PBXNativeTarget "MultipartFormDataRequestGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14656345132C29C600D26B58 /* Debug */,
+				14656346132C29C600D26B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14656307132C29C500D26B58 /* Project object */;
+}
