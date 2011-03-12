@@ -27,10 +27,15 @@ Usage is fairly simple. All you need to do, is to allocate a new object instance
 
 ``
 IAMultipartRequestGenerator *generator = [[IAMultipartRequestGenerator alloc] initWithUrl:@"http://imgur.com" andRequestMethod:@"POST"];
+
 [generator setData:myData forField:@"image"];
+
 [generator setString:developerKey forField:@"key"];
+
 [generator setDelegate:self];
+
 [generator startRequest];
+
 [generator release];
 ``
 
