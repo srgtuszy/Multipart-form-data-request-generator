@@ -20,10 +20,10 @@
 		14656339132C29C600D26B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14656337132C29C600D26B58 /* InfoPlist.strings */; };
 		1465633C132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1465633B132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.h */; };
 		1465633E132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1465633D132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.m */; };
-		14656349132C29E000D26B58 /* IAMultipartRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 14656348132C29E000D26B58 /* IAMultipartRequestGenerator.m */; };
 		1465634B132C2BDA00D26B58 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1465634A132C2BDA00D26B58 /* CFNetwork.framework */; };
 		14656350132C35F000D26B58 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1465634F132C35F000D26B58 /* test.jpg */; };
 		14656352132C36FD00D26B58 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 14656351132C36FD00D26B58 /* README.markdown */; };
+		1465635D132C3ADA00D26B58 /* IAMultipartRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1465635C132C3AD900D26B58 /* IAMultipartRequestGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +54,11 @@
 		1465633A132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipartFormDataRequestGeneratorTests-Prefix.pch"; sourceTree = "<group>"; };
 		1465633B132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipartFormDataRequestGeneratorTests.h; sourceTree = "<group>"; };
 		1465633D132C29C600D26B58 /* MultipartFormDataRequestGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipartFormDataRequestGeneratorTests.m; sourceTree = "<group>"; };
-		14656347132C29E000D26B58 /* IAMultipartRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAMultipartRequestGenerator.h; path = ../../QuickShare/IAMultipartRequestGenerator.h; sourceTree = "<group>"; };
-		14656348132C29E000D26B58 /* IAMultipartRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAMultipartRequestGenerator.m; path = ../../QuickShare/IAMultipartRequestGenerator.m; sourceTree = "<group>"; };
 		1465634A132C2BDA00D26B58 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		1465634F132C35F000D26B58 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test.jpg; path = MultipartFormDataRequestGenerator/test.jpg; sourceTree = "<group>"; };
 		14656351132C36FD00D26B58 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		1465635B132C3AD900D26B58 /* IAMultipartRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAMultipartRequestGenerator.h; sourceTree = "<group>"; };
+		1465635C132C3AD900D26B58 /* IAMultipartRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAMultipartRequestGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +121,8 @@
 		1465631A132C29C500D26B58 /* MultipartFormDataRequestGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				14656347132C29E000D26B58 /* IAMultipartRequestGenerator.h */,
-				14656348132C29E000D26B58 /* IAMultipartRequestGenerator.m */,
+				1465635B132C3AD900D26B58 /* IAMultipartRequestGenerator.h */,
+				1465635C132C3AD900D26B58 /* IAMultipartRequestGenerator.m */,
 				14656323132C29C500D26B58 /* MultipartFormDataRequestGeneratorAppDelegate.h */,
 				14656324132C29C500D26B58 /* MultipartFormDataRequestGeneratorAppDelegate.m */,
 				14656326132C29C600D26B58 /* MainWindow.xib */,
@@ -270,7 +270,7 @@
 			files = (
 				14656322132C29C500D26B58 /* main.m in Sources */,
 				14656325132C29C500D26B58 /* MultipartFormDataRequestGeneratorAppDelegate.m in Sources */,
-				14656349132C29E000D26B58 /* IAMultipartRequestGenerator.m in Sources */,
+				1465635D132C3ADA00D26B58 /* IAMultipartRequestGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +443,7 @@
 				14656343132C29C600D26B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14656344132C29C600D26B58 /* Build configuration list for PBXNativeTarget "MultipartFormDataRequestGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +452,7 @@
 				14656346132C29C600D26B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
