@@ -25,8 +25,7 @@ In Cocoa, CFNetwork is part of the Core Services, so you don't need to add CFNet
 
 Usage is fairly simple. All you need to do, is to allocate a new object instance of IAMultipartRequestGenerator class, and set appropriate values for fields. For instance:
 
-``
-IAMultipartRequestGenerator *generator = [[IAMultipartRequestGenerator alloc] initWithUrl:@"http://imgur.com" andRequestMethod:@"POST"];
+``IAMultipartRequestGenerator *generator = [[IAMultipartRequestGenerator alloc] initWithUrl:@"http://imgur.com" andRequestMethod:@"POST"];
 
 [generator setData:myData forField:@"image"];
 
@@ -36,8 +35,7 @@ IAMultipartRequestGenerator *generator = [[IAMultipartRequestGenerator alloc] in
 
 [generator startRequest];
 
-[generator release];
-``
+[generator release];``
 
 For more usage information, check out the project wiki
 
